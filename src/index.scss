@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.form_wrapper {
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.form_title {
+  color: #316FEA;
+  font-size: 32px;
+  font-weight: 1000;
+}
+
+.form_subtitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.form_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.form_btn {
+  width: 192px;
+  height: 48px;
+  background-color: #fff;
+  border: #D3D8DC solid 1.2px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.btn_img {
+  margin-right: 10px;
+}
+
+.title {
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  color: #BEC5CC;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title:before,
+.title:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: #E3E6E9;
+  position: relative;
+}
+
+.title:before {
+  margin-left: -100%;
+  left: -4px;
+}
+
+.title:after {
+  margin-right: -100%;
+  right: -4px;
+}
+
+.form_input {
+  width: 400px;
+  height: 48px;
+  border: #D3D8DC solid 1.2px;
+  border-radius: 6px;
+  margin-top: 30px;
+  padding: 0 12px;
+}
+
+.visible {
+  position: absolute;
+  top: 48px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.login_btn {
+  width: 400px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #316FEA;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel_btn {
+  width: 400px;
+  height: 48px;
+  border: #D3D8DC solid 1.2px;
+  border-radius: 8px;
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.signup_text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+
+  &__su {
+    color: #316FEA;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
+
+.fp_text {
+  margin-bottom: 0px;
+  color: #316FEA;
+  text-align: right;
+  cursor: pointer;
+}
+
+.reset_input_text {
+  margin-top: 23px;
+  margin-bottom: 12px;
+  text-align: left;
+  color: #060E1E;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.error {
+  color: #FF0000;
+  text-align: left;
+}
